@@ -1,0 +1,8 @@
+pycparser==2.20
+sounddevice==0.4.1
+typing-extensions==3.7.4.3
+pynput==1.7.3
+scipy==1.6.3
+Pillow==8.2.0
+PyMails==0.0.5
+write==2020.12.3
