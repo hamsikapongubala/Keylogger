@@ -15,8 +15,14 @@ smtplib to access it. Also the logger is a continuous process which will not end
 
 ```
 $ cd Labsetup
+
+$ pip install -r requirements.txt
+
 $ python logger.py
+
 $ python screenshots.py
+
 $ python mic.py
+
 $ python final.py
 ```
