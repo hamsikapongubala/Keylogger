@@ -10,7 +10,7 @@ machine and sent to an attacker email account.
 
 ## How to run
 
-### Please note that the attacker and sender's email is not included in the final.py script. The email should be configured as a low security account in order for the
+Please note that the attacker and sender's email is not included in the final.py script. The email should be configured as a low security account in order for the
 smtplib to access it. Also the logger is a continuous process which will not end until an interrupt is received (CTRL + c).
 
 ```
