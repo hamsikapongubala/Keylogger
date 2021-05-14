@@ -13,16 +13,23 @@ machine and sent to an attacker email account.
 Please note that the attacker and sender's email is not included in the final.py script. The email should be configured as a low security account in order for the
 smtplib to access it. Also the logger is a continuous process which will not end until an interrupt is received.
 
+Installing dependencies
 ```
-$ cd Labsetup
-
 $ pip install -r requirements.txt
-
+```
+Run logger
+```
 $ python logger.py
-
+```
+Run screen capture
+```
 $ python screenshots.py
-
+```
+Run audio tracker
+```
 $ python mic.py
-
+```
+Remove traces and send information
+```
 $ python final.py
 ```
